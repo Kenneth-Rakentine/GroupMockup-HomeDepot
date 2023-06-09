@@ -28,11 +28,17 @@ body {
     color:rgb(250, 90, 15);
 }
 
+.centerHeaderWrapper{
+    height:55px;
+}
+
 .mainHeaderWrapper{
     /* border: solid black; */
     background-color:white;
     height:77px;
     box-shadow: 0 0 10px lightgray;
+    height:100px;
+    padding-top:20px;
 
 }
 
@@ -66,6 +72,7 @@ font-size:12px;
 .hyperLoc{
 font-size:14px;
 font-weight:bold;
+margin-top:5px;
 
 }
 
@@ -181,6 +188,60 @@ margin-left:-300px;
 .searchIconImg {
     height: 30px;
     width:30px;
+}
+
+.rightHead{
+display:flex;
+justify-content:flex-end;
+/* justify-content:space-around; */
+margin-bottom:60px;
+margin-top:-10px;
+}
+
+
+.topMenus{
+padding-bottom:100px;
+margin-top:-150px;
+font-size:13px;
+justify-content:row;
+align-items:right;
+flex-basis:10%;
+padding-right:-140px;
+margin-right:-100px;
+
+}
+
+.accountBox{
+display:flex;
+justify-content:space-evenly;
+height:10px;
+padding-top:-100px;
+}
+
+.iconLogos{
+    display:flex;
+    justify-content:space-around;
+    margin-top:-115px;
+    margin-right:300px;
+    height:10px;
+    flex-grow: 20%;
+    /* margin:15px; */
+    /* align-items:right;
+    flex-basis:20%; */
+}
+
+.first{
+    height:30px;
+    margin-right:10px;
+}
+
+.second{
+    height:30px;
+    margin-right:10px;
+}
+.third{
+    height:30px;
+    margin-right:10px;
 }
 
 /* ----------Header END---------- */
